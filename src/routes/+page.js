@@ -7,7 +7,7 @@ export async function load({ url }) {
 	if (browser) {
 		return {
 			owner: url.searchParams?.get('owner') ?? 'nicolas-albert',
-			repo: url.searchParams?.get('repo') ?? 'gmail_forwarder'
+			repo: url.searchParams?.get('repo') ?? 'exquis-presets'
 		};
 	}
 	return {
